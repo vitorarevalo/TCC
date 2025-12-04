@@ -109,7 +109,6 @@ section#landing-section article button {
 
 
 section#landing-section article button:hover {
-    cursor: pointer;
     transition: .3s;
     background-color: #da2626;
     transform: translateY(-10px);

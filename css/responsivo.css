@@ -1,0 +1,55 @@
+@media screen and (max-width: 1300px) {
+      
+    
+    menu {
+        width: 30%;
+    }
+    
+    #card-section {
+        padding: 1em;
+        display: flex;
+        gap: 10px;
+    }
+
+
+
+    .card {
+  width: 325px;
+  height: 445px;
+  border-radius: 12px;
+  transform-style: preserve-3d;
+  transform: perspective(700px) rotateY(0deg) scale(0.85);
+  transition: 0.5s ease;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.438);
+}
+
+
+    .timeline-header {
+        padding: 50px;
+    }
+    
+
+
+    .timeline {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+
+    
+    .card img {
+        width: 80%;
+    }
+    
+    
+    
+    footer {
+        background: red;
+      }
+
+
+
+
+
+    }

@@ -1,0 +1,22 @@
+.cursor {
+  height: 20px;
+  width: 20px;
+  border-radius: 14px;
+  background-color: black;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 99999999;
+}
+
+
+* {
+  cursor: none;
+}
+
+
+* ::selection {
+  background-color: #B02121;
+  color: white;
+}

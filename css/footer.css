@@ -1,0 +1,151 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+    padding: 20px;
+    background-color: #0A0A0A;
+}
+
+
+footer * {
+    overflow-y: hidden;
+}
+
+
+.first-section-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    width: 100%;
+    height: 45vh;
+}
+
+
+.footer-header {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    height: 70%;
+}
+
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 25px;
+    height: 70%;
+    /* background-color: green; */
+}
+
+.mont {
+    color: white;
+}
+
+.second-section-row {
+    border-top: 2px solid white;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    width: 92%;
+    height: 5vh;
+}
+
+footer p {
+    font-size: 1em;
+    font-family: 'Montserrat';
+    color: white;
+    font-weight: 500;
+}
+
+
+.footer-p {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.footer-p p {
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 1em;
+    padding: 5px;
+}
+
+
+.footer-h1 h1 {
+    font-family: 'Montserrat';
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.footer-link {
+    display: inline-block;
+    position: relative;
+    font-family: 'Montserrat';
+    font-size: 1em;
+    /* background-color: black; */
+    color: white;
+    text-align: justify;
+    transition: 0.3s;
+    padding: 5px;
+    width: fit-content;
+    border-radius: 2px;
+}
+
+
+
+
+.footer-link::before {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 2px;
+  bottom: -1px;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  
+
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+  transform-origin: left;
+}
+
+
+.footer-link:hover::before {
+  transform: scaleX(1);
+}
+
+
+
+
+
+
+.footer-header-h1 h1 {
+    font-family: 'Pixelify';
+    font-weight: 600;
+}
+
+
+.footer-header-p p {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+
+
+.divider {
+    width: 2px;
+    height: 40%;
+    background-color: white;
+}
+
+
+.pixel {
+    color: white;
+}

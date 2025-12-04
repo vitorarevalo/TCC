@@ -1,0 +1,43 @@
+#chapter-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    position: fixed;
+
+    background-color: #0e0e0e9a;
+     z-index: 100;
+    
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1%;
+    width: 100px;
+    height: 600px;
+    border-radius: 50px;
+    backdrop-filter: blur(30px);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.329); 
+}
+
+.chapter-number {
+    font-family: 'Jersey';
+    color: white;
+    font-size: 3.5em;
+    transition: 0.3s;
+    text-shadow: 1px 1px 5px black;
+}
+
+
+
+.chapter-number:hover {
+    color: #B02121;
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+
+
+.chapter-number.active-chapter {
+    color: #B02121; /* Cor de destaque para o capítulo ativo */
+    transform: scale(1.1); 
+    transition: 0.3s;
+}

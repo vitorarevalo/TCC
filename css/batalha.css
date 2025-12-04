@@ -1,0 +1,241 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Jersey';
+    src: url(../font/Jersey15/Jersey15-Regular.ttf);
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../font/Montserrat/Montserrat-Regular.woff);
+}
+@font-face {
+    font-family: 'Pixelify';
+    src: url(../font/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf);
+}
+
+
+#chapter-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    position: fixed;
+
+    background-color: #0e0e0e9a;
+     z-index: 100;
+    
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1%;
+    width: 100px;
+    height: 500px;
+    border-radius: 50px;
+    backdrop-filter: blur(30px);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.329); 
+}
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+   
+p {
+    font-weight: 900;
+}
+
+
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+main {
+    height: 500vh;
+}
+
+
+.first-sect {
+    background: url(../img/BGstorm.png) center fixed no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+.texts {
+    padding-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.img-story {
+    height: 90vh;
+}
+
+
+
+.kushinada-txt {
+    margin-right: 130px;
+}
+
+
+
+
+
+.story1 {
+    background: url(../img/cerejeiragate.png) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 100px; */
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.textbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: 700px;
+    height: 675px;
+    background-color: #212121;
+    border-radius: 30px;
+    text-align: justify;
+
+}
+
+
+.amaterasu {
+    height: 100vh;
+}
+
+
+.story2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url(../img/BGcerejeiranight.png) center no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+}
+
+
+
+.susanoo-kushinada {
+    position: absolute;
+    left: 1%;
+    width: 600px;
+}
+
+.pente {
+    position: absolute;
+    right: 5%;
+}
+
+
+
+
+.effect {
+    height: 100vh;
+}
+
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+.textbox2 {
+    width: 700px;
+}
+
+.textbox3 {
+    width: 800px;
+    height: 500px;
+}
+
+
+.story3 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background: url(../img/BGnight-battle.png) no-repeat center;
+    background-size: cover;
+}
+
+
+
+.story3 .texts {
+    padding-left: 1%;
+}
+
+
+
+.battle-susanoo {
+    position: absolute;
+    right: 0;
+    width: 60vw;
+}
+
+
+
+.story4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    width: 100vw;
+    height: 100vh;
+    background: url(../img/BGsunset.png) no-repeat center;
+    background-size: cover;
+}
+
+
+.story4 .textbox {
+    width: 670px;
+    height: 400px;
+}
+
+
+.presa {
+    bottom: 1%;
+    position: absolute;
+}
+

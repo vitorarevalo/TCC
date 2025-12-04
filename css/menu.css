@@ -60,6 +60,7 @@ menu {
 .menu-h1 {
     display: inline;
     overflow-y: hidden;
+    overflow-x: hidden;
     width: 70%;
     display: inline;
 }

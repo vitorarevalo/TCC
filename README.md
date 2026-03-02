@@ -5,7 +5,7 @@
 <p>Aqui falo um pouco sobre este projeto.</p>
 
 <p>Imagem do Projeto:</p>
-<img src="https://github.com/vitorarevalo/projeto-calculadora/blob/main/Calculadora.png?raw=true" width="700px">
+<img src="https://github.com/vitorarevalo/TCC/blob/main/project-screenshot.png" width="700px">
 
 ## Propósito
 <p>Esse foi um projeto em grupo com quatro colegas em que decidimos desenvolver um site que ensinasse sobre a mitologia japonesa por meio de storytelling com pixel art, HTML, CSS, Javascript e GSAP.</p>
